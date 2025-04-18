@@ -1,4 +1,4 @@
-# 🧱 React TS Dashboard Layout
+# 🧱 React TS App Layout
 
 A foundational, reusable layout template built with **React**, **TypeScript**, **Tailwind CSS**, **Redux Toolkit**, and **Vite** — ideal for dashboards, admin panels, and modern web apps.
 
@@ -43,8 +43,8 @@ This project provides a fully functional NavBar + Sidebar layout with theme supp
 ### 1. Clone the repo
 
 ```bash
-git clone https://github.com/your-username/react-ts-dashboard-layout.git
-cd react-ts-dashboard-layout
+git clone https://github.com/DineshBala-A/dinesh-bala-react-sidebar-navbar-template.git
+cd dinesh-bala-react-sidebar-navbar-templat
 ```
 
 ### 2. Install dependencies
@@ -91,17 +91,11 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## 🙌 Contributing
-
-Feel free to fork the project, open issues, or submit pull requests. Let's build better UIs together!
-
----
-
 ## 👨‍💼 Author
 
 **Dinesh Bala**  
-📧 your-email@example.com  
-🌍 [github.com/your-username](https://github.com/your-username)
+📧 dineshbala472@gmail.com  
+🌍 [github.com/DineshBala-A](https://github.com/DineshBala-A)
 
 ---
 
