@@ -1,54 +1,109 @@
-# React + TypeScript + Vite
+# 🧱 React TS Dashboard Layout
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A foundational, reusable layout template built with **React**, **TypeScript**, **Tailwind CSS**, **Redux Toolkit**, and **Vite** — ideal for dashboards, admin panels, and modern web apps.
 
-Currently, two official plugins are available:
+This project provides a fully functional NavBar + Sidebar layout with theme support, responsive design, and state management to speed up your development process.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Tech Stack
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- ⚛️ **React** – UI library
+- 🔹 **TypeScript** – Type safety
+- 💨 **Tailwind CSS** – Utility-first styling
+- 🧠 **Redux Toolkit** – Global state management
+- ⚡ **Vite** – Fast development build tool
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+---
+
+## 📁 Folder Structure
+
+```
+├── public/
+├── src/
+│   ├── app/                  # Redux store setup
+│   ├── components/           # Reusable components (NavBar, Sidebar, etc.)
+│   ├── features/             # Feature-specific Redux slices
+│   ├── pages/                # Route-based page components
+│   ├── routes/               # App route definitions
+│   ├── styles/               # Global styles (Tailwind config, custom CSS)
+│   ├── ThemeProvider.tsx     # Dark/light mode context
+│   ├── main.tsx              # App entry point
+│   └── App.tsx               # Root component
+├── tailwind.config.ts
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📦 Getting Started
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+### 1. Clone the repo
+
+```bash
+git clone https://github.com/your-username/react-ts-dashboard-layout.git
+cd react-ts-dashboard-layout
 ```
+
+### 2. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 3. Start development server
+
+```bash
+npm run dev
+```
+
+App will be available at `http://localhost:5173`
+
+---
+
+## 🔧 Features
+
+- ✅ Responsive NavBar and Sidebar
+- 🎨 Dark/light theme toggle
+- ⚙️ Redux state management (e.g., sidebar open/close)
+- 📱 Mobile-friendly layout
+- ⚡ Fast development with Vite
+- ✨ Clean and scalable folder structure
+
+---
+
+## 🧹 Use Cases
+
+- Admin dashboards
+- CMS or internal tools
+- Data analytics UIs
+- Starter for SaaS platforms
+
+---
+
+## 🔒 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 🙌 Contributing
+
+Feel free to fork the project, open issues, or submit pull requests. Let's build better UIs together!
+
+---
+
+## 👨‍💼 Author
+
+**Dinesh Bala**  
+📧 your-email@example.com  
+🌍 [github.com/your-username](https://github.com/your-username)
+
+---
+
+> 🚧 This template is actively maintained. Future updates may include authentication, dynamic routes, API integrations, and component libraries.
+
